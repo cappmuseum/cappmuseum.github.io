@@ -647,3 +647,10 @@ a:hover { color: #cc0000; }
   .developing-body { grid-template-columns: minmax(0, 1fr); }
   .developing-pic { max-width: 300px; justify-self: center; }
 }
+
+.visitor-map img { display: block; width: 100%; height: auto; border: 2px solid #000; }
+.map-hint { margin: 6px 0 0; }
+.map-deck { grid-template-columns: 1fr 1.6fr; }
+@media (max-width: 820px) {
+  .map-deck { grid-template-columns: 1fr; }
+}
